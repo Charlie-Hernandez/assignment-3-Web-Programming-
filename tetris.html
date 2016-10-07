@@ -1,4 +1,12 @@
-<canvas id="myCanvas" width="300" height="600" style="border:1px solid #000000;margin-left: auto;margin-right: auto;margin-top: auto;margin-bottom: auto;display: block;" />
+<html> 
+
+<head> 
+
+<title> Tetris </title>  
+
+
+
+<canvas id="myCanvas" width="300" height="600" style="border:1px solid blue;margin-left: auto;margin-right: auto;margin-top: auto;margin-bottom: auto;display: block;" />
 <script>
 var context = document.getElementById("myCanvas").getContext("2d"), canvas = context.canvas,
     shapes = [[3840, 17476], [26112], [17984, 19968, 19520, 3648], [3712, 25120, 11776, 35008], [3616, 17600, 36352, 51328], [1728, 35904], [3168, 19584]],
@@ -32,3 +40,14 @@ function draw(drawScene) {
 }
 intervalId = setInterval(window.addEventListener("keydown", update) || update, 3);
 </script>
+
+</head>
+
+<body> 
+
+
+<h> Tetris Game </h> 
+
+</body> 
+
+</html>
